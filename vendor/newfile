@@ -1,0 +1,16 @@
+/*
+//include 'views/templates/header.php';
+require './vendor/autoload.php';
+
+use Spipu\Html2Pdf\Html2Pdf;
+
+//header('Location: prueba_pdf.php');
+$html2pdf = new Html2Pdf();
+
+$html = '<h1>Probando Probando</h1> Mi primera prueba';
+
+$html2pdf->writeHTML($html);
+$html2pdf->output('document.pdf');
+//var_dump;
+
+    //include 'views/templates/footer.php';*/
